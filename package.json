@@ -1,0 +1,19 @@
+{
+  "name": "sagedocs",
+  "version": "0.0.1",
+  "description": "Documentation site for Sage and its components",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "https://github.com/Chuugummy/SageDocs/SageDocs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
