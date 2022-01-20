@@ -53,7 +53,7 @@ Fired when an error occurs while executing a command.
 ### getEvents
 Returns all the events that can be emitted and listened to.
 
-### emit
+### .emit(<span style="color: rgba(84, 98, 255, 0.8)">eventName</span>, <span style="color: rgba(84, 98, 255, 0.8)">...args</span>)
 Emits an event.
 
 | Parameter | Type | Description |
@@ -61,7 +61,7 @@ Emits an event.
 | eventName | `String` | The event to emit. |
 | args | `Object` | The data to emit. |
 
-### on
+### .on(<span style="color: rgba(84, 98, 255, 0.8)">eventName</span>, <span style="color: rgba(84, 98, 255, 0.8)">callback</span>)
 Adds a listener to an event.
 
 | Parameter | Type | Description |
