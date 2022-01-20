@@ -11,6 +11,11 @@ Contains all loaded commands that are being managed by the framework.
 
 Type: **`Array`**
 
+### .eventHandler
+Contains the event handler instance.
+
+Type: **`SageEvents`**
+
 
 ## Methods
 

@@ -62,6 +62,7 @@ module.exports = {
           children: [
             "framework/sageframework-class",
             "framework/sageframework-command",
+            "framework/sageframework-event"
           ]
         }
       ]
